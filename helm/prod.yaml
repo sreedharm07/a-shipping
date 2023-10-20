@@ -1,3 +1,7 @@
 component: shipping
 service_type: ClusterIP
 targetPort: 8080
+env: prod
+schema:
+  enabled: true
+  db_type: my-sql
