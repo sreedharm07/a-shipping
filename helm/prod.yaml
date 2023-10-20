@@ -1,6 +1,7 @@
 component: shipping
 service_type: ClusterIP
 targetPort: 8080
+PARAMETERS: "shipping.prod.cartendpoint,CART_ENDPOINT shipping.prod.dbhost,DB_HOST"
 env: prod
 schema:
   enabled: true
